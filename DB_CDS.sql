@@ -124,18 +124,5 @@ CREATE TABLE tb_tituloArtistas(
 		REFERENCES tb_artistas (cod_artista)
 ) DEFAULT CHARSET = utf8mb4;
 
-CREATE TABLE tb_Titulo_Pedido(
-	num_Ped int NOT null REFERENCES tb_Pedido (num_Ped),
-  cod_Tit int NOT null REFERENCES tb_Titulo (cod_Tit),
-  qtd_CD int NOT null CHECK (qtd_CD >= 1),
-  val_CD decimal(10, 2) NOT null check (val_CD > 0),
-  PRIMARY KEY (num_Ped, cod_Tit)
- );
-  
- CREATE TABLE tb_Titulo_Artista (
-  cod_Tit int NOT null REFERENCES tb_Titulo(cod_Tit),
- 	cod_Art int NOT null REFERENCES tb_Artista(cod_Art),
- 	PRIMARY KEY (cod_Tit, cod_Art)
- );
 	
     
