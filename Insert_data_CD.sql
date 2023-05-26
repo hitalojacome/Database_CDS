@@ -1,8 +1,3 @@
-SHOW TABLES;
-
-SELECT * FROM tb_titulos;
-DESC tb_tituloArtistas;
-
 INSERT INTO tb_artistas VALUES 
 (NULL, '2pac'),
 (NULL, 'Michael Jackson'),
@@ -99,11 +94,3 @@ INSERT INTO tb_tituloArtistas VALUES
 (6, 4),
 (8, 1),
 (5, 6);
-
-
-
-
-
-
-
-

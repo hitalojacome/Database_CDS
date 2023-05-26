@@ -123,6 +123,3 @@ CREATE TABLE tb_tituloArtistas(
 	CONSTRAINT FK_TitulosArtistas_Artistas FOREIGN KEY (cod_artista)
 		REFERENCES tb_artistas (cod_artista)
 ) DEFAULT CHARSET = utf8mb4;
-
-	
-    
