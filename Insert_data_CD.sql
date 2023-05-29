@@ -77,12 +77,15 @@ INSERT INTO tb_titulos VALUES
 (NULL, 1, 1, 'Album 1', 13.99, 30),
 (NULL, 5, 2, 'Album 2', 16.99, 100),
 (NULL, 3, 5, 'Album 3', 20.99, 78),
-(NULL, 6, 3, 'Album 4', 10.77, 20);
+(NULL, 6, 3, 'Album 4', 10.77, 20),
+(NULL, 4, 4, 'Album 5', 200, 8000);
 
 INSERT INTO tb_pedidos VALUES
 (NULL, 2, 5, '2023-05-24', 65.99),
 (NULL, 1, 4, '2022-12-25', 77.70),
-(NULL, 5, 2, '2020-08-12', 123.76);
+(NULL, 5, 2, '2020-08-12', 123.76),
+(NULL, 1, 1, '2002-05-28', 360.87),
+(NULL, 4, 2, '2002-12-08', 720.80);
 
 INSERT INTO tb_tituloPedidos VALUES
 (3, 6, 6, 32.55),
